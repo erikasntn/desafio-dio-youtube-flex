@@ -1,0 +1,146 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #F8F8F8;
+    margin: 0;
+    position: relative;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 10vh;
+    align-items: center;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    width: 180px;
+    justify-content: space-around;
+}
+
+#sizemenu {
+    width: 24px;
+    height: 24px;
+}
+
+#sizeyoutube {
+    width: 90px;
+    height: 20px;
+}
+
+#sizebarra {
+    width: 348px;
+    height: 40px;
+}
+
+#sizesearch {
+    width: 57px;
+    height: 40px;
+    position: absolute;
+}
+
+.three {
+    display: flex;
+    width: 180px;
+    flex-shrink: 0;
+    justify-content: space-around;
+}
+
+#onedirection {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.container-main {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 28px 0 0 30px;
+    max-width: 952px;
+}
+
+.watching-video-inferior {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.avatar-container img {
+    border-radius: 50%;
+}
+
+.avatar-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    align-content: center;
+}
+
+.nomecanal {
+    margin-left: 16px;
+}
+
+.container-main button  {
+    margin-left: 16px;
+    width: 159px;
+    height: 40px ;
+    background-color: rgba(204, 0, 0, 1);
+    color: white;
+}
+
+.text {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.descricao{
+    white-space: pre;
+}
+
+
+.container-side {
+    position: absolute;
+    top: 90px;
+    right: 50px; 
+    max-width: 400px;
+}
+
+.side {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+
+
+.text-inferior{
+    display: flex; 
+    flex-direction: column; 
+
+}
+
+
+
+
+    .text-1 {
+      margin-left: 170px;
+        margin-top: -90px; 
+    }
+    
+
+
+.text-2 {
+    margin-left: 170px;
+    font-size: 0.8rem; 
+    color: #555;
+}
